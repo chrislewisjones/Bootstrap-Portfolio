@@ -6,6 +6,10 @@ body {
   background-image: url("./../images/tex2res3.png");
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .container {
   width: 100%;
   max-width: 960px;
@@ -39,7 +43,7 @@ h3 {
 }
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 50px;
   min-height: calc(100vh - 70px);
 }
 
@@ -75,4 +79,10 @@ h2 {
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
 }
