@@ -17,16 +17,16 @@ body {
   clear: both;
 }
 
-h1,
-h2,
-h3 {
+h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
   color: #4aaaa5;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .navbar-brand {
   float: left;
-  width: 250px;
+  width: 210px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -36,6 +36,11 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  padding: 0px;
+}
+
+.navbar {
+  padding: 0px;
 }
 
 .navbar-light .navbar-brand {
@@ -85,7 +90,8 @@ h2 {
   border-color: #4aaaa5;
 }
 
-@media screen and (max-width: 640px) {
+/* added to match the bootstrap burger menu toggle */
+@media screen and (max-width: 991px) {
   .navbar-brand {
     width: 100%;
   }
